@@ -1,5 +1,10 @@
 import React from 'react';
-
+import project1 from '../../Assets/project1.jpg';
+import project2 from '../../Assets/project2.jpg';
+import project3 from '../../Assets/project3.jpg';
+import project4 from '../../Assets/project4.jpg';
+import project5 from '../../Assets/project5.jpg';
+import project6 from '../../Assets/project6.jpeg';
 export default function Portfolio() {
   return (
     <section id="workcontainer">
@@ -9,30 +14,30 @@ export default function Portfolio() {
   
   
   <article id="projectcontainer">
-    <a href="https://master20100.github.io/Weather-Forecast/" class="item" id="project1">
-        <h4 class="projectName">Weather-Forecast</h4>
-        <img src="Assets/project1.jpg" alt="weatherforecast" />
+    <a href="https://master20100.github.io/Weather-Forecast/" className="item" id="project1">
+        <h4 className="projectName">Weather-Forecast</h4>
+        <img src={project1} alt="weatherforecast" />
     </a>
-      <a href="https://master20100.github.io/Password-generator/" class="item">
-          <h4 class="projectName">Password-generator</h4>
-          <img src="Assets/project2.jpg"  alt="password generator" />
+      <a href="https://master20100.github.io/Password-generator/" className="item">
+          <h4 className="projectName">Password-generator</h4>
+          <img src={project2}  alt="password generator" />
         
       </a>
-      <a href="https://master20100.github.io/Questions-game/" class="item">
-          <h4 class="projectName">Questions-game</h4>
-            <img  src="Assets/project3.jpg"  alt="questions game" />
+      <a href="https://master20100.github.io/Questions-game/" className="item">
+          <h4 className="projectName">Questions-game</h4>
+            <img  src={project3}   alt="questions game" />
       </a>
-      <a href="https://github.com/Master20100/README-creator" class="item">
-          <h4 class="projectName">README-creator</h4>
-          <img  src="Assets/project4.jpg" alt="readme creator" />
+      <a href="https://github.com/Master20100/README-creator" className="item">
+          <h4 className="projectName">README-creator</h4>
+          <img  src={project4}  alt="readme creator" />
         </a>
-      <a href="https://master20100.github.io/Work-Day-Scheduler/" class="item">
-          <h4 class="projectName">Work-Day-Scheduler</h4>
-          <img src="Assets/project5.jpg"  alt="work day scheduler" />
+      <a href="https://master20100.github.io/Work-Day-Scheduler/" className="item">
+          <h4 className="projectName">Work-Day-Scheduler</h4>
+          <img src={project5}   alt="work day scheduler" />
         </a>
-      <a href="https://rschragger.github.io/MAR/" class="item">
-          <h4 class="projectName">MAR project(top 10 youtube finder with lyrics finder)</h4>
-          <img src="Assets/project6.jpeg"  alt="MAR project" />
+      <a href="https://rschragger.github.io/MAR/" className="item">
+          <h4 className="projectName">MAR project(top 10 youtube finder with lyrics finder)</h4>
+          <img src={project6}   alt="MAR project" />
         </a>
   </article>
 </section>

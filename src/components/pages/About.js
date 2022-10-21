@@ -3,7 +3,7 @@ import React from 'react';
 export default function About() {
   return (
     <section id="about_me">
-    <article class="box1">
+    <article className="box1">
       <h2>About me</h2>
       <p id="intro">Hi, my name is Mina Ghaly.
         I started my career when I joined the bootcamp program in may 2022.
