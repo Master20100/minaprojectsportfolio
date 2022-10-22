@@ -129,3 +129,12 @@ img{
   max-width:50%; 
   height:auto;
 }
+
+.contactInput{
+width: 300px;
+
+}
+
+#contactMessage{
+  height: 100px;
+}
