@@ -14,6 +14,9 @@ export default function Contact() {
         case 'contactMessage':
           if(!e.target.value){document.getElementById('errorLabel').innerHTML = "please enter a message"}
           break;
+
+        default:
+          document.getElementById('errorLabel').innerHTML = ""
         }
       
     }
