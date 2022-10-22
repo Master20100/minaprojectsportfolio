@@ -11,6 +11,9 @@ export default function Contact() {
         if(!e.target.value){alert("please enter an email")}
         else if(!/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(e.target.value)){alert('please enter a valid email')}
         break;
+        case 'contactMessage':
+          if(!e.target.value){alert("please enter a message")}
+          break;
         }
       
     }
@@ -29,7 +32,7 @@ export default function Contact() {
 <br></br>
 <label>Message:</label>
 <br></br>
-<textarea rows="4" className='contactInput'></textarea><br></br>
+<textarea rows="4" className='contactInput' id='contactMessage' onMouseOut={(e) => { mouseOutEvent(e)}} ></textarea><br></br>
 <input type='Submit'></input>
 </form>
 
