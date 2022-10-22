@@ -5,14 +5,14 @@ export default function Contact() {
   
     switch(e.target.id) {
       case 'contactName':
-        if(!e.target.value){alert("please enter a name")}
+        if(!e.target.value){document.getElementById('errorLabel').innerHTML = "please enter a name"}
         break;
       case 'contactEmail':
-        if(!e.target.value){alert("please enter an email")}
-        else if(!/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(e.target.value)){alert('please enter a valid email')}
+        if(!e.target.value){document.getElementById('errorLabel').innerHTML = "please enter an email"}      
+        else if(!/^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/.test(e.target.value)){document.getElementById('errorLabel').innerHTML = "please enter a valid email"}
         break;
         case 'contactMessage':
-          if(!e.target.value){alert("please enter a message")}
+          if(!e.target.value){document.getElementById('errorLabel').innerHTML = "please enter a message"}
           break;
         }
       
@@ -34,6 +34,8 @@ export default function Contact() {
 <br></br>
 <textarea rows="4" className='contactInput' id='contactMessage' onMouseOut={(e) => { mouseOutEvent(e)}} ></textarea><br></br>
 <input type='Submit'></input>
+<br></br>
+<label id='errorLabel'></label>
 </form>
 
 
