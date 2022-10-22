@@ -1,4 +1,6 @@
 import React from 'react';
+import personalPhoto from '../../Assets/personalPhoto.jpg';
+
 
 export default function About() {
   return (
@@ -11,7 +13,7 @@ export default function About() {
         I became very good in all these fields. In addition to that, I am 
         planning to study php as well by the end of 2022 to have an excellent protofolio.</p>
       </article>
-      
+      <img id="personalPhoto" src={personalPhoto} alt="personalPhoto"/>   
     </section>
   );
 }

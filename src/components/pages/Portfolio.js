@@ -4,7 +4,7 @@ import project2 from '../../Assets/project2.jpg';
 import project3 from '../../Assets/project3.jpg';
 import project4 from '../../Assets/project4.jpg';
 import project5 from '../../Assets/project5.jpg';
-import project6 from '../../Assets/project6.jpeg';
+import project6 from '../../Assets/project6.jpg';
 export default function Portfolio() {
   return (
     <section id="workcontainer">
