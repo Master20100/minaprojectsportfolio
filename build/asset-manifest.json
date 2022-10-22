@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/minaprojectsportfolio/static/css/main.26a252fd.css",
+    "main.js": "/minaprojectsportfolio/static/js/main.dc306f4d.js",
+    "static/js/787.d8b3eef1.chunk.js": "/minaprojectsportfolio/static/js/787.d8b3eef1.chunk.js",
+    "static/media/project6.jpg": "/minaprojectsportfolio/static/media/project6.d03fe3554d6a2b5b02d4.jpg",
+    "static/media/project5.jpg": "/minaprojectsportfolio/static/media/project5.69bc8f2d16a8df6216cd.jpg",
+    "static/media/personalPhoto.jpg": "/minaprojectsportfolio/static/media/personalPhoto.c8fbb3de444c5ab903ee.jpg",
+    "static/media/project2.jpg": "/minaprojectsportfolio/static/media/project2.e8259bef6d65b054eb64.jpg",
+    "static/media/project4.jpg": "/minaprojectsportfolio/static/media/project4.ba83fa23ea8ce0a476fd.jpg",
+    "static/media/project1.jpg": "/minaprojectsportfolio/static/media/project1.a2d203cbc83ef6d58a58.jpg",
+    "static/media/project3.jpg": "/minaprojectsportfolio/static/media/project3.5ae920032350696e3308.jpg",
+    "static/media/stackIcon.jpg": "/minaprojectsportfolio/static/media/stackIcon.5cf09af0856fef10e04b.jpg",
+    "index.html": "/minaprojectsportfolio/index.html",
+    "main.26a252fd.css.map": "/minaprojectsportfolio/static/css/main.26a252fd.css.map",
+    "main.dc306f4d.js.map": "/minaprojectsportfolio/static/js/main.dc306f4d.js.map",
+    "787.d8b3eef1.chunk.js.map": "/minaprojectsportfolio/static/js/787.d8b3eef1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26a252fd.css",
+    "static/js/main.dc306f4d.js"
+  ]
+}

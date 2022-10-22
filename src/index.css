@@ -15,7 +15,7 @@ position: relative;
 bottom: 0;
 left:auto;
 float: right;
-  /* ? */
+
 }
 
 #intro{
@@ -52,7 +52,7 @@ background-image: linear-gradient(blue,lightblue);
 .box3 h2{
   height: 250px;
   border-right: 2px solid black;
-} */
+} 
 
 
 p{
