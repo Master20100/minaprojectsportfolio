@@ -138,3 +138,9 @@ width: 300px;
 #contactMessage{
   height: 100px;
 }
+
+
+#gitIcon, #linkedIcon, #stackIcon{
+  max-width:2%;
+  height: auto;
+}
